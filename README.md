@@ -19,9 +19,11 @@ Two main features about Anaconda:
  2. Switching between environments (e.g. between Python 3.6 and 2.7)
 
 Only install Anaconda 2.x or Anaconda 3.x (recommended). After installing Anaconda 3.x, you can create an 2.x environment by:
- `conda create -n py27 python=2.7`
- `activate py27`
- `conda install numpy`
+ ```
+ conda create -n py27 python=2.7
+ activate py27
+ conda install numpy
+ ```
 More here: https://conda.io/docs/user-guide/tasks/manage-python.html
 
 Installation link: https://www.anaconda.com/download/
@@ -35,7 +37,15 @@ Guide: https://www.tensorflow.org/install/install_windows
  conda create -n tensorflow python=3.5
  ```
  2. Activate the conda environment by issuing the following command:
+ ```
+ activate tensorflow
+ ```
+ 3. Install GPU version of TensorFlow:
+ ```
+ pip install --ignore-installed --upgrade tensorflow-gpu
+ ```
 
+Validate installation...
 
 ### R-integration: Setting up Keras/tensorflow interface using RStudio 'keras' package
 1. Install devtools so we can install packages from github: install.packages("devtools")
