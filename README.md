@@ -48,9 +48,9 @@ Next, install CUDA® Toolkit 8.0:
  C:\ProgramData\NVIDIA Corporation\CUDA Samples\v9.0\bin\win64\Release
  ```
 
-Next, install cuDNN v6 or v6.1:
+Next, install cuDNN v6 or v6.1. The NVIDIA CUDA® Deep Neural Network library (cuDNN) is a GPU-accelerated library of primitives for deep neural networks. cuDNN provides highly tuned implementations for standard routines such as forward and backward convolution, pooling, normalization, and activation layers. Follow these steps:
+ 1. 
 
-More here: http://docs.nvidia.com/cuda/cuda-installation-guide-microsoft-windows/
 
 ### Install Tensorflow with Anaconda
 Guide: https://www.tensorflow.org/install/install_windows
