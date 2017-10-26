@@ -9,7 +9,7 @@ Keras is a wrapper API that presents a higher-level, more intuitive set of abstr
 ## Installation of Keras with Tensorflow at the backend
 A good reference is https://www.datacamp.com/community/tutorials/keras-r-deep-learning
 
-You use Anaconda to setup Python environment. For Tensorflow installation, there are two options:
+We use Anaconda to setup Python environment. For Tensorflow installation, there are two options:
  1. Use Anaconda (recommended) or pip 
  2. Use the RStudio kera package
 
