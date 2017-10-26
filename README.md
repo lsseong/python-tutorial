@@ -35,6 +35,23 @@ Open All Programs -> Anaconda3 -> "Anaconda Prompt", then type the following:
 Python 3.6.3 :: Anaconda, Inc.
 ```
 
+### Cuda Installation 
+Cuda is the C/C++ library to harness the processing power of the graphics processing unit (GPU). CUDA-capable GPUs have hundreds of cores that can collectively run thousands of computing threads. 
+
+First of all, tensorflow requires a GPU with CUDA Compute Capability (CC) 3.0 or higher. For NVIDIA card, check here: https://developer.nvidia.com/cuda-gpus. For example, my laptop has GeForce GTX 960M	with CC 5.0 so that's good news!
+
+Next, install CUDA® Toolkit 8.0:
+ 1. Get the installer from http://developer.nvidia.com/cuda-downloads
+ 2. The version of the CUDA Toolkit can be checked by running `nvcc -V` in a Command Prompt window
+ 3. To verify a correct configuration of the hardware and software, it is highly recommended that you run the `deviceQuery` program located at
+ ```
+ C:\ProgramData\NVIDIA Corporation\CUDA Samples\v9.0\bin\win64\Release
+ ```
+
+Next, install cuDNN v6 or v6.1:
+
+More here: http://docs.nvidia.com/cuda/cuda-installation-guide-microsoft-windows/
+
 ### Install Tensorflow with Anaconda
 Guide: https://www.tensorflow.org/install/install_windows
  1. Create a conda environment named tensorflow by invoking the following command: 
