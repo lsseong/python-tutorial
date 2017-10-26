@@ -24,6 +24,8 @@ Only install Anaconda 2.x or Anaconda 3.x (recommended). After installing Anacon
  `conda install numpy`
 More here: https://conda.io/docs/user-guide/tasks/manage-python.html
 
+Installation link: https://www.anaconda.com/download/
+
 ### Use Anaconda to setup Python environment 
 
 ### Use Anaconda or Pip to install TensorFlow
