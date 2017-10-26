@@ -16,7 +16,7 @@ You use Anaconda to setup Python environment. For Tensorflow installation, there
 ### Install Anaconda
 Two main features about Anaconda:
  1. Install/update packages (e.g. Python, numpy)
- 2. Switching or moving between environments (e.g. between Python 3.6 and 2.7)
+ 2. Switching between environments (e.g. between Python 3.6 and 2.7)
 
 Only install Anaconda 2.x or Anaconda 3.x (recommended). After installing Anaconda 3.x, you can create an 2.x environment by:
  > conda create -n py27 python=2.7
