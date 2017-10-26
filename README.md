@@ -43,7 +43,7 @@ Guide: https://www.tensorflow.org/install/install_windows
  ```
  2. Activate the conda environment by issuing the following command:
  ```
- activate tensorflow
+ activate tensorflow35
  ```
  3. Install GPU version of TensorFlow:
  ```
