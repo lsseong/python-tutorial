@@ -51,10 +51,10 @@ Next, install CUDA® Toolkit 8.0:
  1. Get the installer from https://developer.nvidia.com/cuda-toolkit-archive
  2. The version of the CUDA Toolkit can be checked by running `nvcc -V` in a Command Prompt window
  ```
- nvcc: NVIDIA (R) Cuda compiler driver
- Copyright (c) 2005-2017 NVIDIA Corporation
- Built on Fri_Sep__1_21:08:32_Central_Daylight_Time_2017
- Cuda compilation tools, release 9.0, V9.0.176
+nvcc: NVIDIA (R) Cuda compiler driver
+Copyright (c) 2005-2016 NVIDIA Corporation
+Built on Mon_Jan__9_17:32:33_CST_2017
+Cuda compilation tools, release 8.0, V8.0.60
  ```
  
  3. To verify a correct configuration of the hardware and software, it is highly recommended that you run the `deviceQuery` program located at
