@@ -24,6 +24,11 @@ Only install Anaconda 2.x or Anaconda 3.x (recommended). After installing Anacon
  activate py27
  conda install numpy
  ```
+To see a list of Anaconda environment, type:
+```
+conda env list
+```
+
 More here: https://conda.io/docs/user-guide/tasks/manage-python.html
 
 Installation link: https://www.anaconda.com/download/
