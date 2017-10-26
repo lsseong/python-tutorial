@@ -55,6 +55,8 @@ Validate installation...
 
 ## Python IDE
 
+### Jupyter (formerly, IPython) Notebooks
+
 ## Useful Tutorials 
 Collection of useful Python tutorials
 
