@@ -45,6 +45,8 @@ Cuda is the C/C++ library to harness the processing power of the graphics proces
 
 First of all, tensorflow requires a GPU with CUDA Compute Capability (CC) 3.0 or higher. For NVIDIA card, check here: https://developer.nvidia.com/cuda-gpus. For example, my laptop has GeForce GTX 960M	with CC 5.0 so that's good news!
 
+Before proceeding, check the TensorFlow installation guide (https://www.tensorflow.org/install/install_windows) to find out the  required version of CUDA Toolkit and cuDNN (any other version will not work). At the time of writing, it requires CUDA® Toolkit 8.0 and cuDNN v6 or v6.1.
+
 Next, install CUDA® Toolkit 8.0:
  1. Get the installer from https://developer.nvidia.com/cuda-toolkit-archive
  2. The version of the CUDA Toolkit can be checked by running `nvcc -V` in a Command Prompt window
@@ -63,7 +65,7 @@ Next, install CUDA® Toolkit 8.0:
 Next, install cuDNN v6 or v6.1. The NVIDIA CUDA® Deep Neural Network library (cuDNN) is a GPU-accelerated library of primitives for deep neural networks. cuDNN provides highly tuned implementations for standard routines such as forward and backward convolution, pooling, normalization, and activation layers. Follow these steps:
  1. Get the library from https://developer.nvidia.com/rdp/cudnn-download. 
  2. At the time of writing, the tensorflow installation for Window says that TensorFlow will not load if it cannot find cuDNN64_6.dll. So we have to download the cuDNN v6.0 (April 27, 2017), for CUDA 8.0. 
- 3. Put the files under a directory (e.g. C:\ProgramData\NVIDIA Corporation\cuDNN\v6\cuda8)
+ 3. Put the files under a directory (e.g. C:\ProgramData\NVIDIA Corporation\cuDNN\v6\cuda8). There should be cuDNN64_6.dll under the bin directory.
  4. Add the bin directory to System PATH (e.g. C:\ProgramData\NVIDIA Corporation\cuDNN\v6\cuda8\bin)
 
 
