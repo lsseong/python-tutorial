@@ -39,7 +39,7 @@ Python 3.6.3 :: Anaconda, Inc.
 Guide: https://www.tensorflow.org/install/install_windows
  1. Create a conda environment named tensorflow by invoking the following command: 
  ```
- conda create -n tensorflow python=3.5
+ conda create -n tensorflow35 python=3.5
  ```
  2. Activate the conda environment by issuing the following command:
  ```
