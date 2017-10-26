@@ -29,12 +29,10 @@ More here: https://conda.io/docs/user-guide/tasks/manage-python.html
 Installation link: https://www.anaconda.com/download/
 
 ### Verify Python environment 
-Open "Anaconda Prompt" and invoke python from the shell by tpying `python`, then enter the following short prpgram:
+Open All Programs -> Anaconda3 -> "Anaconda Prompt", then type the following:
 ```
->>> import tensorflow as tf
->>> hello = tf.constant('Hello, TensorFlow!')
->>> sess = tf.Session()
->>> print(sess.run(hello))
+> python --version
+Python 3.6.3 :: Anaconda, Inc.
 ```
 
 ### Install Tensorflow with Anaconda
@@ -52,7 +50,13 @@ Guide: https://www.tensorflow.org/install/install_windows
  pip install --ignore-installed --upgrade tensorflow-gpu
  ```
 
-Validate installation...
+To verify installation is successful, open "Anaconda Prompt" and invoke python from the shell by tpying `python`, then enter the following short prpgram:
+```
+>>> import tensorflow as tf
+>>> hello = tf.constant('Hello, TensorFlow!')
+>>> sess = tf.Session()
+>>> print(sess.run(hello))
+```
 
 ### R-integration: Setting up Keras/tensorflow interface using RStudio 'keras' package
 1. Install devtools so we can install packages from github: install.packages("devtools")
