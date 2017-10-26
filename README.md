@@ -49,6 +49,10 @@ Guide: https://www.tensorflow.org/install/install_windows
  ```
  pip install --ignore-installed --upgrade tensorflow-gpu
  ```
+ 4. (Alternatively) install CPU version:
+ ```
+ pip install --ignore-installed --upgrade tensorflow
+ ```
 
 To verify installation is successful, open "Anaconda Prompt" and invoke python from the shell by tpying `python`, then enter the following short prpgram:
 ```
