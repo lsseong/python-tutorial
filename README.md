@@ -1,6 +1,11 @@
 # python-tutorial
 The aim is to setup a research/development environment using Python with the option to integrate with R (i.e. calling Python from R).
 
+## Python and Machine Learning
+Theano and TensorFlow (by Google) are two main backend libraries for Deep Learning research and development. Both are accessible via Python API.
+
+Keras is a wrapper API that presents a higher-level, more intuitive set of abstractions that make it easy to configure neural networks regardless of the backend library. Essentially Keras Python library provides a clean and convenient way to create a range of deep learning models on top of Theano or TensorFlow. 
+
 ## Installation of Keras with Tensorflow at the backend
 A good reference is https://www.datacamp.com/community/tutorials/keras-r-deep-learning
 
