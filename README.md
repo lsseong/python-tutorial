@@ -26,9 +26,13 @@ More here: https://conda.io/docs/user-guide/tasks/manage-python.html
 
 Installation link: https://www.anaconda.com/download/
 
-### Use Anaconda to setup Python environment 
+### Verify Python environment 
 
-### Use Anaconda or Pip to install TensorFlow
+### Install Tensorflow with Anaconda
+Guide: https://www.tensorflow.org/install/install_windows
+ 1. Create a conda environment named tensorflow by invoking the following command:
+    `> conda create -n tensorflow python=3.5`
+
 
 ### R-integration: Setting up Keras/tensorflow interface using RStudio 'keras' package
 1. Install devtools so we can install packages from github: install.packages("devtools")
