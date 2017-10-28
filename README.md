@@ -40,6 +40,16 @@ Open All Programs -> Anaconda3 -> "Anaconda Prompt", then type the following:
 Python 3.6.3 :: Anaconda, Inc.
 ```
 
+### Useful Modules
+The following modules are useful in machine learning. Open Anaconda Prompt and type the following (you can also install the following module by activating an environment first):
+```
+conda install numpy
+conda install scipy
+conda install matplotlib
+conda install panda
+conda install scikit-learn
+```
+
 ### Cuda Installation 
 Cuda is the C/C++ library to harness the processing power of the graphics processing unit (GPU). CUDA-capable GPUs have hundreds of cores that can collectively run thousands of computing threads. 
 
@@ -128,6 +138,16 @@ b'Hello, TensorFlow!'
 ## Python IDE
 ### Spyder
 Anaconda installation comes with Spyder IDE, which can be launched directly by Programs -> Anaconda3 -> Spyder
+
+### PyCharm
+There's a free Community version available: https://www.jetbrains.com/pycharm/download/#section=windows
+
+When you first launch PyCharm, it will set your Python intepreter to C:\ProgramData\Anaconda3\python.exe
+
+If you want PyCharm to use another Anaconda environment you have created earlier, figure out the Anaconda environment folder (`conda env list`) and do the following in PyCharm:
+ 1. File -> Settings -> Project [name] -> Project Interpreter
+ 2. Click the "Wheels" icon -> Add Local -> (point to python.exe in the conda env folder)
+
 
 ### Jupyter (formerly, IPython) Notebooks
 
