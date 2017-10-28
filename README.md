@@ -126,6 +126,8 @@ b'Hello, TensorFlow!'
 4. Locating already installed Tensorflow (by Anaconda/pip): see "Custom installation" https://tensorflow.rstudio.com/installation.html
 
 ## Python IDE
+### Spyder
+Anaconda installation comes with Spyder IDE, which can be launched directly by Programs -> Anaconda3 -> Spyder
 
 ### Jupyter (formerly, IPython) Notebooks
 
