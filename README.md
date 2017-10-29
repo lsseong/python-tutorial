@@ -151,6 +151,9 @@ If you want PyCharm to use another Anaconda environment you have created earlier
 
 ### Jupyter (formerly, IPython) Notebooks
 
+### Sublime Text 3
+https://www.youtube.com/watch?v=zVLJfrIwEP8&list=PL-osiE80TeTtHH8BZngXEsLPGotQxZa6z
+
 ## Useful Tutorials 
 Collection of useful Python tutorials
 
