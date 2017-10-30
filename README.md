@@ -148,8 +148,10 @@ If you want PyCharm to use another Anaconda environment you have created earlier
  1. File -> Settings -> Project [name] -> Project Interpreter
  2. Click the "Wheels" icon -> Add Local -> (point to python.exe in the conda env folder)
 
+### Jupyter (formerly, IPython) Notebook
+Programs -> Anaconda3 -> Jupyter Notebook
 
-### Jupyter (formerly, IPython) Notebooks
+Good intro: https://media.readthedocs.org/pdf/jupyter-notebook-beginner-guide/latest/jupyter-notebook-beginner-guide.pdf
 
 ### Sublime Text 3
 https://www.youtube.com/watch?v=zVLJfrIwEP8&list=PL-osiE80TeTtHH8BZngXEsLPGotQxZa6z
