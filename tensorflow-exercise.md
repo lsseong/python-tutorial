@@ -6,3 +6,6 @@ https://lilianweng.github.io/lil-log/2017/07/08/predict-stock-prices-using-RNN-p
 
 LSTM implementation explained
 https://apaszke.github.io/lstm-explained.html
+
+RNNs in Tensorflow, a Practical Guide and Undocumented Features
+http://www.wildml.com/2016/08/rnns-in-tensorflow-a-practical-guide-and-undocumented-features/
