@@ -9,3 +9,6 @@ https://apaszke.github.io/lstm-explained.html
 
 RNNs in Tensorflow, a Practical Guide and Undocumented Features
 http://www.wildml.com/2016/08/rnns-in-tensorflow-a-practical-guide-and-undocumented-features/
+
+Writing RNNs in Tensorflow
+http://n-s-f.github.io/2017/07/10/rnn-tensorflow.html
