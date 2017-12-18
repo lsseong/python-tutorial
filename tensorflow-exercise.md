@@ -12,3 +12,6 @@ http://www.wildml.com/2016/08/rnns-in-tensorflow-a-practical-guide-and-undocumen
 
 Writing RNNs in Tensorflow
 http://n-s-f.github.io/2017/07/10/rnn-tensorflow.html
+
+Introduction to Recurrent Networks in TensorFlow
+https://danijar.com/introduction-to-recurrent-networks-in-tensorflow/
