@@ -15,3 +15,6 @@ http://n-s-f.github.io/2017/07/10/rnn-tensorflow.html
 
 Introduction to Recurrent Networks in TensorFlow
 https://danijar.com/introduction-to-recurrent-networks-in-tensorflow/
+
+How to structure your model in TensorFlow (Embedding) 
+http://web.stanford.edu/class/cs20si/lectures/notes_04.pdf
