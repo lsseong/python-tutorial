@@ -46,7 +46,7 @@ The following modules are useful in machine learning. Open Anaconda Prompt and t
 conda install numpy
 conda install scipy
 conda install matplotlib
-conda install panda
+conda install pandas
 conda install scikit-learn
 ```
 
