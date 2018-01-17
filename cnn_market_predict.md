@@ -1,7 +1,7 @@
 # Convolutional Neural Networks for Market Prediction
 
 ## Model 1
-Our dataset consists of 5 years of daily stock data of multiple symbols. We have to use as much symbols as possible to ensure sufficient size of dataset. 
+Our dataset consists of 5 years daily stock data of multiple US large cap. We have to use as many stocks as possible to ensure sufficient size of dataset. 
 
 On each day, we have OHLC (open, high, low, close) and volume info for each stock so in total we have 5 values at each time step. We use z-score to standardize the data. Moving average (over last 20) and simple standard deviation (over entire history) are used for standardization. 
 
