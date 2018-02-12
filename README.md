@@ -76,9 +76,9 @@ We need to ensure our NVIDIA drivers associated with CUDA Toolkit 9.0, otherwise
 
 Next, install cuDNN v6 or v6.1. The NVIDIA CUDA® Deep Neural Network library (cuDNN) is a GPU-accelerated library of primitives for deep neural networks. cuDNN provides highly tuned implementations for standard routines such as forward and backward convolution, pooling, normalization, and activation layers. Follow these steps:
  1. Get the library from https://developer.nvidia.com/rdp/cudnn-download. 
- 2. At the time of writing, the tensorflow installation for Window says that TensorFlow will not load if it cannot find cuDNN64_6.dll. So we have to download the cuDNN v6.0 (April 27, 2017), for CUDA 8.0. 
- 3. Put the files under a directory (e.g. C:\ProgramData\NVIDIA Corporation\cuDNN\v6\cuda8). There should be cuDNN64_6.dll under the bin directory.
- 4. Add the bin directory to System PATH (e.g. C:\ProgramData\NVIDIA Corporation\cuDNN\v6\cuda8\bin)
+ 2. At the time of writing, the tensorflow installation for Window says that TensorFlow will not load if it cannot find cuDNN64_7.dll. So we have to download the cuDNN v7.0.4 (Nov 13, 2017), for CUDA 8.0. 
+ 3. Put the files under a directory (e.g. C:\ProgramData\NVIDIA Corporation\cuDNN\v7\cuda8). There should be cuDNN64_7.dll under the bin directory.
+ 4. Add the bin directory to System PATH (e.g. C:\ProgramData\NVIDIA Corporation\cuDNN\v7\cuda8\bin)
 
 
 ### Install Tensorflow with Anaconda
