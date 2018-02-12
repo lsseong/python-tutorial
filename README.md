@@ -83,20 +83,18 @@ Next, install cuDNN v6 or v6.1. The NVIDIA CUDA® Deep Neural Network library (c
 Guide: https://www.tensorflow.org/install/install_windows
  1. Create a conda environment named tensorflow by invoking the following command: 
  ```
- conda create -n tensorflow35 python=3.5
+ conda create -n tf36 python=3.6
  ```
  2. Activate the conda environment by issuing the following command:
  ```
- activate tensorflow35
+ activate tf36
  ```
  3. Install GPU version of TensorFlow:
  ```
  pip install --ignore-installed --upgrade tensorflow-gpu
  ```
- 4. (Alternatively) install CPU version:
- ```
- pip install --ignore-installed --upgrade tensorflow
- ```
+
+Reference here: https://www.tensorflow.org/install/install_windows
 
 To verify installation is successful, open "Anaconda Prompt" and invoke python from the shell by tpying `python`, then enter the following short prpgram:
 ```
