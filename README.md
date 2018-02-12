@@ -55,9 +55,9 @@ Cuda is the C/C++ library to harness the processing power of the graphics proces
 
 First of all, tensorflow requires a GPU with CUDA Compute Capability (CC) 3.0 or higher. For NVIDIA card, check here: https://developer.nvidia.com/cuda-gpus. For example, my laptop has GeForce GTX 960M	with CC 5.0 so that's good news!
 
-Before proceeding, check the TensorFlow installation guide (https://www.tensorflow.org/install/install_windows) to find out the  required version of CUDA Toolkit and cuDNN (any other version will not work). At the time of writing, it requires CUDA® Toolkit 8.0 and cuDNN v6 or v6.1.
+Before proceeding, check the TensorFlow installation guide (https://www.tensorflow.org/install/install_windows) to find out the  required version of CUDA Toolkit and cuDNN (any other version will not work). At the time of writing, it requires CUDA® Toolkit 9.0 and cuDNN v6.0 or v6.1.
 
-Next, install CUDA® Toolkit 8.0:
+Next, install CUDA® Toolkit 9.0:
  1. Get the installer from https://developer.nvidia.com/cuda-toolkit-archive
  2. The version of the CUDA Toolkit can be checked by running `nvcc -V` in a Command Prompt window
  ```
