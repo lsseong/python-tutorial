@@ -21,4 +21,4 @@ Kernel size, padding, stride and input width/height will determine the output wi
 
 What about ReLU, the activation function? Its common practice to place ReLU logic after each neuron output. ReLU dimension will be the same as output volume dimension i.e. {N, N, K}.
 
-It is a good practice to apply "batch normalization" after each layer. More here: https://towardsdatascience.com/batch-normalization-in-neural-networks-1ac91516821c
+It is a good practice to apply "batch normalization" after each layer because this technique potentially helps in two ways: faster learning and higher overall accuracy. Further reading here: https://towardsdatascience.com/batch-normalization-in-neural-networks-1ac91516821c
