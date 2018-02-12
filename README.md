@@ -72,6 +72,8 @@ Cuda compilation tools, release 8.0, V8.0.60
  C:\ProgramData\NVIDIA Corporation\CUDA Samples\v9.0\bin\win64\Release
  ```
 
+We need to ensure our NVIDIA drivers associated with CUDA Toolkit 9.0, otherwise we will see "CUDA driver version is insufficient for CUDA runtime version" error when creating a tensorflow session in the tf.Session() call. I used the GEFORCE EXPERIENCE application to update my driver.
+
 Next, install cuDNN v6 or v6.1. The NVIDIA CUDA® Deep Neural Network library (cuDNN) is a GPU-accelerated library of primitives for deep neural networks. cuDNN provides highly tuned implementations for standard routines such as forward and backward convolution, pooling, normalization, and activation layers. Follow these steps:
  1. Get the library from https://developer.nvidia.com/rdp/cudnn-download. 
  2. At the time of writing, the tensorflow installation for Window says that TensorFlow will not load if it cannot find cuDNN64_6.dll. So we have to download the cuDNN v6.0 (April 27, 2017), for CUDA 8.0. 
