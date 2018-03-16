@@ -17,7 +17,7 @@ A convolution layer takes an input volume, apply k-number of filters and produce
 
 What's the dimension of each filter? Kernel size (width/heigh) is a hyperparameter (i.e. user can set it to any value), but depth will be the same as input depth. That's right! If input has depth of 3, then each filter has a depth of 3 too! For example if kernel size is 5, then kernel matrix dimension is {5, 5, 3}. Why depth of 3? Well, we use {5, 5, 1} to produce first dot product (a scalar) at depth = 1, then use {5, 5, 2} at depth = 2 and {5, 5, 3} at depth = 3. Then we sum up these 3 scalar values (plus a bias) to produce a final value. This single value is also the output of a neuron. As a result of the sum over depth, each filter will produce just a 2D image.
 
-Kernel size, padding, stride and input width/height will determine the final output width/height (N). The output volume dimension will be {N, N, K} assumming we have K number of filters. Each output layer (i.e. k=1, 2, 3...) is also called a feature map. Another way to say this is that each location on the (N x N) image will now have K number of channels/depth. 
+Kernel size, padding, stride and input width/height will determine the final output width/height (N). The output volume dimension will be {N, N, K} assumming we have K number of filters. Each output layer (i.e. k=1, 2, 3...) is also called a feature map. Another way to say this is that each location on the (N x N) image will now have K number of channels/depth/features. 
 
 What about ReLU, the activation function? Its common practice to place ReLU logic after each neuron output. ReLU dimension will be the same as output volume dimension i.e. {N, N, K}.
 
