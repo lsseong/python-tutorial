@@ -9,3 +9,4 @@ import csv
 with open('C:/temp/data/winequality-red.csv') as f:
     wines = list(csv.reader(f, delimiter=';'))
 ```
+More about with statement - http://preshing.com/20110920/the-python-with-statement-by-example/
