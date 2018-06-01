@@ -1,3 +1,6 @@
+## Key symbols
+
+
 ## import CSV
 ```
 import pandas as pd
@@ -10,6 +13,11 @@ with open('C:/temp/data/winequality-red.csv') as f:
     wines = list(csv.reader(f, delimiter=';'))
 ```
 More about with statement - http://preshing.com/20110920/the-python-with-statement-by-example/
+
+
+## Read Big File
+http://stackabuse.com/read-a-file-line-by-line-in-python/
+
 
 ## List
 
