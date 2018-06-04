@@ -1,7 +1,7 @@
 ## Key symbols
 
 
-## import CSV
+## Read CSV
 ```
 import pandas as pd
 df = pd.read_csv('C:/temp/algo/marketdata/ARCA/GDX.csv')
@@ -38,4 +38,17 @@ Is equivalent to
 myList = []
 for i in range(10):
     myList.append(i)
+```
+
+## Generator Expression
+https://www.python.org/dev/peps/pep-0289/
+
+The following summation code will build a full list of squares in memory, iterate over those values, and, when the reference is no longer needed, delete the list:
+```
+sum([x*x for x in range(10)])
+```
+
+We don't really need to build the full list in memory first, instead, they only need to iterate over the elements one at a time:
+```
+sum(x*x for x in range(10))
 ```
