@@ -50,6 +50,11 @@ conda install pandas
 conda install scikit-learn
 ```
 
+To get a list of installed modules, do
+```
+conda list
+```
+
 ### Cuda Installation 
 Cuda is the C/C++ library to harness the processing power of the graphics processing unit (GPU). CUDA-capable GPUs have hundreds of cores that can collectively run thousands of computing threads. 
 
