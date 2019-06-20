@@ -1,0 +1,2 @@
+conda create -n tf35 python=3.5
+conda install tensorflow=1.13.1
