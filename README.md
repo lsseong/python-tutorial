@@ -158,6 +158,8 @@ Programs -> Anaconda3 -> Jupyter Notebook
 
 Good intro: https://media.readthedocs.org/pdf/jupyter-notebook-beginner-guide/latest/jupyter-notebook-beginner-guide.pdf
 
+https://www.datacamp.com/community/blog/ipython-jupyter
+
 ### Sublime Text 3
 https://www.youtube.com/watch?v=zVLJfrIwEP8&list=PL-osiE80TeTtHH8BZngXEsLPGotQxZa6z
 
