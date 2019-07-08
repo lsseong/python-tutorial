@@ -19,11 +19,7 @@ What's the dimension of each filter? Kernel size (width/heigh) is a hyperparamet
 
 Kernel size, padding, stride and input width/height will determine the final output width/height (N). The output volume dimension will be {N, N, K} assumming we have K number of filters. Each output layer (i.e. k=1, 2, 3...) is also called a feature map. Another way to say this is that each location on the (N x N) image will now have K number of channels/depth/features. 
 
-Output dimension formulae = (W−F+2P)/S + 1
-W = input dimension
-F = filter size
-P = padding
-S = stride
+Output dimension formulae = (Input_dimension − filter_size + 2*padding_size)/stride + 1
 
 What about ReLU, the activation function? Its common practice to place ReLU logic after each neuron output. ReLU dimension will be the same as output volume dimension i.e. {N, N, K}.
 
